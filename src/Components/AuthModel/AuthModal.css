@@ -1,0 +1,53 @@
+.modal-dialog{
+ margin-top: 120px;
+ font-family: anta;
+}
+.modal-content{
+  border-radius: 3%;
+}
+.modal-title{
+  margin-left: 45%;
+}
+.form-label {
+  font-weight: 500;
+  color: #555;
+}
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  font-size: 1rem;
+}
+.form-control:focus {
+  border-color: #FF9933;
+  box-shadow: 0 0 5px rgba(30, 212, 94, 0.2);
+}
+.btn-auth {
+  background: #FF9933;
+  border: none;
+  padding: 10px 0;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: white;
+}
+.btn-auth:hover {
+  background: #e67e22;
+}
+
+.toggle-text {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 15px;
+  color: #666;
+}
+
+.toggle-link {
+  color: #FF9933;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.toggle-link:hover {
+  color: #e67e22;
+}

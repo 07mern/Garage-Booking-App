@@ -1,0 +1,100 @@
+.about-container {
+    font-family: 'Arial, sans-serif';
+    padding: 20px;
+    line-height: 1.6;
+    text-align: center;
+    font-family: anta;
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(87deg, rgba(255, 255, 255, 1) 27%, rgba(188, 199, 189, 0.9809) 70%);
+    background: -webkit-linear-gradient(87deg, rgba(255, 255, 255, 1) 27%, rgba(188, 199, 189, 0.9809) 70%);
+    background: linear-gradient(87deg, rgba(255, 255, 255, 1) 27%, rgba(188, 199, 189, 0.9809) 70%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#bcc7bd", GradientType=1);
+  }
+  
+  /* Hero Section */
+  .about-hero {
+   background-color: #FF9933;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .about-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: zen dots;
+  }
+  
+  .about-hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* Content Section */
+  .about-content {
+    margin: 40px auto;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .about-content h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #444;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Team Section */
+  .team-section {
+    margin: 50px 0;
+  }
+  
+  .team-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+    
+  }
+  .team-member:hover{
+    transform: scale(1.1)
+  }
+  
+  .team-member {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s ease;
+  }
+
+  .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
